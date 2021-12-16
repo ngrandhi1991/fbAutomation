@@ -22,6 +22,7 @@ dist/
 # Maven
 target/
 dist/
+fbmachine-test.log
 
 # JetBrains IDE
 .idea/
