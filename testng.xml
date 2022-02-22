@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FbMachine Test suite">
+    <listeners>
+        <listener class-name="com.fbmachine.qa.util.SuiteListner"/>
+    </listeners>
+
+    <test name="fbmachine">
+        <classes>
+            <class name="com.fbmachine.qa.testcases.LoginPageTest"/>
+            <class name="com.fbmachine.qa.testcases.CreateUserTest"></class>
+            <class name="com.fbmachine.qa.testcases.EditUserPageTest"></class>
+            <class name="com.fbmachine.qa.testcases.DashboardPageTestForUserSuperAdmin"></class>
+            <class name="com.fbmachine.qa.testcases.DashboardPageTestWithUserAdmin"></class>
+            <class name="com.fbmachine.qa.testcases.DashboardPageTestForUserContent"></class>
+            <class name="com.fbmachine.qa.testcases.DashboardPageTestForUserPromo"></class>
+            <class name="com.fbmachine.qa.testcases.AdSetPageTest"></class>
+            <class name="com.fbmachine.qa.testcases.AdsPageTest"></class>
+            <class name="com.fbmachine.qa.testcases.AutoAdsPageTest"></class>
+            <class name="com.fbmachine.qa.testcases.RetrieveBookDetailPageTest"></class>
+            <class name="com.fbmachine.qa.testcases.AdCreationPageTest"></class>
+            <class name="com.fbmachine.qa.testcases.PromoAdsPageTest"></class>
+        </classes>
+
+    </test>
+</suite>
